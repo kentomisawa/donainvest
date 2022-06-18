@@ -1,0 +1,36 @@
+{
+  "canisters": {
+    "donainvest": {
+      "candid": "src/donainvest/donainvest.did",
+      "package": "donainvest",
+      "type": "rust"
+    },
+    "donainvest_assets": {
+      "dependencies": [
+        "donainvest"
+      ],
+      "frontend": {
+        "entrypoint": "src/donainvest_assets/src/index.html"
+      },
+      "source": [
+        "src/donainvest_assets/assets",
+        "dist/donainvest_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.10.0",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
