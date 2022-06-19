@@ -1,26 +1,6 @@
-# donainvest
+# Donainvest
 
-Welcome to your new donainvest project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
-
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
-
-To learn more before you start working with donainvest, see the following documentation available online:
-
-- [Quick Start](https://smartcontracts.org/docs/quickstart/quickstart-intro.html)
-- [SDK Developer Tools](https://smartcontracts.org/docs/developers-guide/sdk-guide.html)
-- [Rust Canister Devlopment Guide](https://smartcontracts.org/docs/rust-guide/rust-intro.html)
-- [ic-cdk](https://docs.rs/ic-cdk)
-- [ic-cdk-macros](https://docs.rs/ic-cdk-macros)
-- [Candid Introduction](https://smartcontracts.org/docs/candid-guide/candid-intro.html)
-- [JavaScript API Reference](https://erxue-5aaaa-aaaab-qaagq-cai.raw.ic0.app)
-
-If you want to start working on your project right away, you might want to try the following commands:
-
-```bash
-cd donainvest/
-dfx help
-dfx config --help
-```
+Donainvest is a donation-investment platform on which the value of offered tokens is in proportion to social goodness and social workers are able to continuously fundraise without crypto-related licenses.
 
 ## Running the project locally
 
@@ -35,3 +15,32 @@ dfx deploy
 ```
 
 Once the job completes, your application will be available at `http://localhost:8000?canisterId={asset_canister_id}`.
+
+Additionally, if you are making frontend changes, you can start a development server with
+
+```bash
+npm start
+```
+
+Which will start a server at `http://localhost:8080`, proxying API requests to the replica at port 8000.
+
+## What It Does
+
+### Fundraising Without a Crypto-Related License
+
+Social workers can raise funds with [this protocol](https://github.com/kentomisawa/lfico), therefore everyone can easily offer tokens. 
+
+### Fundraising And Income
+
+Integrating donation and investment is a great way for social organizations to fundraise. Social projects can not only raise funds but also earn income on this platform, moreover, users pay and invest money not only for social organizations but also for themselves. The combination of temporary funding with income and self-oriented incentives with altruism is exponentially powerful.
+
+### Connecting To Capitalism
+
+Social workers work in the market where capitalism doesn't work well; that means it is hard for social organizations to get sophisticated as the *invisible hand* works. Donainvest integrates social works and capitalism. Then, that visualizes the needs of what the society really desires and how social projects make the social impact.
+
+#### The Relation Between Social Impact and The Token Price
+
+Token prices are in proportion to how much people want to support the project. Because there is no other incentives like dividends or ownerships. Although there is another incentive that is expectations of price increase in the future, it should depend on the social impact that the project makes. 
+
+## How It Works
+### Pricing
