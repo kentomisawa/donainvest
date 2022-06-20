@@ -30,9 +30,9 @@ Which will start a server at `http://localhost:8080`, proxying API requests to t
 
 Social workers can raise funds with [this protocol](https://github.com/kentomisawa/lfico), therefore everyone can easily offer tokens. 
 
-### Fundraising And Income
+### Donation And Investment
 
-Integrating donation and investment is a great way for social organizations to fundraise. Social projects can not only raise funds but also earn income on this platform, moreover, users pay and invest money not only for social organizations but also for themselves. The combination of temporary funding with income and self-oriented incentives with altruism is exponentially powerful.
+Integrating donation and investment is a great way for social organizations to fundraise. Users pay and invest money not only for social organizations but also for themselves. The combination of self-oriented investment and altruistic donation is exponentially powerful.
 
 ### Connecting To Capitalism
 
@@ -43,13 +43,12 @@ Social workers work in the market where capitalism doesn't work well; that means
 Token prices are in proportion to how much people want to support the project. Because there is no other incentives like dividends or ownerships. Although there is another incentive that is expectations of price increase in the future, it should depend on the social impact that the project makes. 
 
 ## How It Works
-### Offering Tokens
-
-Everyone can offer tokens easily because it is on [this protocol](https://github.com/kentomisawa/lfico). The project owner sets the value backing percentage. The rest of them are sent to the project owner as funds. Project owners must consider regulations because if unexpected huge loss of users' assets happens, the offered tokens may have to be regulated. To prevent from that, project owners should set the value backing rate relatively high.
 
 ### Donations
 
-Users choose what percentage of tokens to donate when they buy. It's like fees on an exchange but how much users pay is up to them. The more donation, the more bonus value the purchased tokens will get if the price increases. 
+Users choose what percentage of tokens to donate when they buy. It's like fees on an exchange but how much users pay is up to them. The more donation, the more bonus value the purchased tokens will get if the price increases.  
+Project owners set the *Donation Bonus Power*; it is the variable to determine how much users get bonuses by their donations. There is a tradeoff between the token price and the amount of donation. If a project owner wants to earn more income from donation, the Donation Bonus Power should be set higher. On the other hand, if the project owner wants the token price to increase more, they should set the Donation Bonus Power lower. Project owners can change it anytime later. This may be like capital increase as companies do.
 
 ### Hedging Risks
 
+Project owners have to hedge risks for users because unexpected asset loss causes restriction on the purchase of the tokens. To prevent from that, projet owners set the *Guaranteed Value Rate*. It is the rate of the values that users never lose related to the purchased values. Users also determine the rate to guarantee the part of held token values, but users cannot set the *Guaranteed Value Rate* less than the project owner sets. This rate might be defferent from juristdictions in which target users exist. Project owners must consider the *Guaranteed Value Rate* is safe enough not to be regulated and to protect users from huge asset loss.
