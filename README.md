@@ -49,6 +49,10 @@ Token prices are in proportion to how much people want to support the project. B
 Users choose what percentage of tokens to donate when they buy. It's like fees on an exchange but how much users pay is up to them. The more donation, the more bonus value the purchased tokens will get if the price increases.  
 Project owners set the *Donation Bonus Power*; it is the variable to determine how much users get bonuses by their donations. There is a tradeoff between the token price and the amount of donation. If a project owner wants to earn more income from donations, the Donation Bonus Power should be set higher. On the other hand, if the project owner wants the token price to increase more, they should set the Donation Bonus Power lower. Project owners can change it anytime later. This may be like capital increase as companies do.
 
-### Hedging Risks
+### Risk Hedging
 
 Project owners have to hedge risks for users because unexpected asset loss causes restrictions on the purchase of the tokens. To prevent that, project owners set the *Guaranteed Value Rate*. It is the rate of the values that users never lose related to the purchased values. Users also determine the rate to guarantee the part of held token values, but users cannot set the *Guaranteed Value Rate* less than the project owner sets. This rate might be different from jurisdictions in which target users exist. Project owners must consider the *Guaranteed Value Rate* is safe enough not to be regulated and to protect users from huge asset loss.
+
+### Pricing
+
+
