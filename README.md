@@ -51,7 +51,7 @@ Project owners set the *Donation Bonus Power*; it is the variable to determine h
 
 ### Risk Hedging
 
-Project owners have to hedge risks for users because unexpected asset loss causes restrictions on the purchase of the tokens. To prevent that, project owners set the *Guaranteed Value Rate*. It is the rate of the values that users never lose related to the purchased values. Users also determine the rate to guarantee the part of held token values, but users cannot set the *Guaranteed Value Rate* less than the project owner sets. This rate might be different from jurisdictions in which target users exist. Project owners must consider the *Guaranteed Value Rate* is safe enough not to be regulated and to protect users from huge asset loss.
+Project owners have to hedge risks for users because unexpected asset loss causes restrictions on the purchase of the tokens. To prevent that, project owners set the *Value Guarantee Rate*. It is the rate of the values that users never lose related to the purchased values. Users also determine the rate to guarantee the part of held token values, but users cannot set the *Value Guarantee Rate* less than the project owner sets. This rate might be different from jurisdictions in which target users exist. Project owners must consider the *Value Guarantee Rate* is safe enough not to be regulated and to protect users from huge asset loss.
 
 ### Pricing
 
