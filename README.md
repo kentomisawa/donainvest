@@ -59,4 +59,4 @@ The issued tokens are a kind of NFTs. Because amounts of donations and *Value Gu
 
 ### KYC, AML/CFT, etc
 
-Due to the exemption of crypto-related licenses for project owners, it's not able for anonymous users to transfer or exchange tokens. Users have to get permission from regulated organizations. If any exchanges don't allow a user to exchange, the user may not able to get an investment return, but still, offering tokens are feasible without any licenses.
+Due to the exemption of crypto-related licenses for project owners, it's not able for anonymous users to transfer or exchange tokens. Users have to get permission from regulated organizations. If any exchanges don't allow a user to exchange, the user may not able to get an investment return, but still, offering tokens are feasible without any licenses. Because that is completely the same as selling a dynamic pricing product.
