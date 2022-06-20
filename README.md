@@ -43,4 +43,13 @@ Social workers work in the market where capitalism doesn't work well; that means
 Token prices are in proportion to how much people want to support the project. Because there is no other incentives like dividends or ownerships. Although there is another incentive that is expectations of price increase in the future, it should depend on the social impact that the project makes. 
 
 ## How It Works
-### Pricing
+### Offering Tokens
+
+Everyone can offer tokens easily because it is on [this protocol](https://github.com/kentomisawa/lfico). The project owner sets the value backing percentage. The rest of them are sent to the project owner as funds. Project owners must consider regulations because if unexpected huge loss of users' assets happens, the offered tokens may have to be regulated. To prevent from that, project owners should set the value backing rate relatively high.
+
+### Donations
+
+Users choose what percentage of tokens to donate when they buy. It's like fees on an exchange but how much users pay is up to them. The more donation, the more bonus value the purchased tokens will get if the price increases. 
+
+### Hedging Risks
+
