@@ -1,6 +1,6 @@
 # Donainvest
 
-Donainvest is a donation-investment platform on which the value of offered tokens is in proportion to social goodness and social workers are able to continuously fundraise without crypto-related licenses.
+Donainvest is a donation-investment platform on which the market cap is in proportion to the social impact and social workers are able to continuously fundraise without crypto-related licenses.
 
 ## Running the project locally
 
@@ -28,7 +28,7 @@ Which will start a server at `http://localhost:8080`, proxying API requests to t
 
 ### Fundraising Without a Crypto-Related License
 
-Social workers can raise funds with [this protocol](https://github.com/kentomisawa/lfico), therefore everyone can easily offer tokens. 
+Social workers can raise funds with [this protocol](https://github.com/kentomisawa/lfico), therefore everyone can easily offer tokens without any license. 
 
 ### Donation And Investment
 
@@ -38,29 +38,32 @@ Integrating donation and investment is a great way for social organizations to f
 
 Social workers work in a market where capitalism doesn't work well; that means it is hard for social organizations to get sophisticated as the *invisible hand* works. Donainvest integrates social works and capitalism. Then, that visualizes the needs of what the society really desires and how social projects make social impact.
 
-#### The Relation Between Social Impact and The Token Price
+#### The Relation Between Social Impact and A Market Cap
 
-Token prices are in proportion to how much people want to support the project. Because there are no other incentives like dividends or ownerships. Although there is another incentive which is expectations of price increases in the future, it should depend on the social impact that the project makes. 
+A market cap is in proportion to how much people want to support the project. Because there are no other incentives like dividends or ownerships. Although there is another incentive which is expectations of token value increases in the future, it comes from the social impact that the project makes. 
 
 ## How It Works
 
-### Donations
+### Token Offering
 
-Users choose what percentage of tokens to donate when they buy. It's like fees on an exchange but how much users pay is up to them. The more donation, the more bonus value the purchased tokens will get if the price increases.  
-Project owners set the *Donation Bonus Power*; it is the variable to determine how much users get bonuses by their donations. There is a tradeoff between the token price and the amount of donation. If a project owner wants to earn more income from donations, the Donation Bonus Power should be set higher. On the other hand, if the project owner wants the token price to increase more, they should set the Donation Bonus Power lower. Project owners can change it anytime later. This may be like capital increase as companies do.
+It's confusing but there is no concept of price. It's about a market cap. The value of each token would be different, though the tokens are issued by the same project.
+
+### Donation
+
+Users choose what percentage of tokens to donate when they buy. It's like fees on an exchange but how much users pay is up to them. The more donation, the more bonus value the purchased token will get if the market cap gets bigger. Project owners set the *Donation Bonus Power*; it is a variable to determine how much bonuses users receive from their donations. There is a tradeoff between the market cap and the amount of donation. If a project owner wants to earn more income from donations, the Donation Bonus Power should be set higher. On the other hand, if the project owner wants users to get profits more, they should set the Donation Bonus Power lower. Project owners can change it anytime later. This is a little like capital increase as companies do.
 
 ### Risk Hedging
 
 Project owners have to hedge risks for users because unexpected asset loss causes restrictions on the purchase of the tokens. To prevent that, project owners set the *Value Guarantee Rate*. It is the rate of the values that users never lose related to the purchased values. Users also determine the rate to guarantee the part of held token values, but users cannot set the *Value Guarantee Rate* less than the project owner sets. This rate might be different from jurisdictions in which target users exist. Project owners must consider the *Value Guarantee Rate* is safe enough not to be regulated and to protect users from huge asset loss.
 
-### Pricing
+### Investment
 
-The issued tokens are a kind of NFTs. Because amounts of donations and *Value Guarantee Rate* are different for individuals; the more donation the more bonus value and the higher *Value Guarantee Rate* the less volatility. If a project owner makes the rate of donations and *Value Guarantee Rate* not optional to users, every issued token is at the same price. Although the volatility of purchased tokens issued by the same project owner could be different, the price users buy at is the same. Investment returns are differentiated by donation and *Value Guarantee Rate*. That seems hard to use those tokens, however, it is easy to pay with because they are coupled with the DEX and swappable.
+The issued tokens are a kind of NFTs. Because amounts of donations and *Value Guarantee Rate* are different for individuals; the more donation the more bonus value and the higher *Value Guarantee Rate* the less volatility. If tokens are purchased by the same amount of donations and at the same *Value Guarantee Rate*, every issued token is at the same volatility. Investment returns are differentiated by donation and *Value Guarantee Rate*. That seems hard to use those tokens, however, it is easy to pay with because they are coupled with the DEX, and can be swappable or transferable.
 
 #### Donation Bonuses and Investment Returns
 
-There are two factors that users get values with, which are Donation Bonuses and Investment Returns. Donation Bonuses are derived from the amount of donation and *Donation Bonus Power*, Investment Returns are derived from the amount of purchased tokens and *Value Guarantee Rate*. Even though a price of tokens has increased by 10%, the values the users obtain might be not 10%; it could be 5% or 15%. It is various to users.
+There are two factors that users get values with, which are Donation Bonuses and Investment Returns. Donation Bonuses are derived from the amount of donation and *Donation Bonus Power*, Investment Returns are derived from the amount of purchased tokens and *Value Guarantee Rate* (and *Donation Bonus Power*). If a user earns profits by 10% of tokens, another may earn 5% or 15% of profits. It is various to users.
 
 ### KYC, AML/CFT, etc
 
-Due to the exemption of crypto-related licenses for project owners, it's not able for anonymous users to transfer or exchange tokens. Users have to get permission from regulated organizations. If any exchanges don't allow a user to exchange, the user may not able to get an investment return, but still, offering tokens are feasible without any licenses. Because that is completely the same as selling a dynamic pricing product.
+Due to the exemption of crypto-related licenses for project owners, it's not able for anonymous users to transfer or exchange tokens. Users have to get permission from regulated organizations. If any exchanges don't allow a user to exchange, the user may not able to get an investment return, but still, offering tokens are feasible without any licenses because that is completely the same as selling a dynamic pricing product at the moment of the "offering".
