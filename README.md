@@ -46,11 +46,11 @@ A market cap is in proportion to how much people want to support the project. Be
 
 ### Token Offering
 
-It's confusing but there is no concept of price. It's about a market cap. The value of each token would be different, though the tokens are issued by the same project.
+It's confusing but there is no concept of "price" of offered tokens. It's about value change. The value of each token would be different, though the tokens are issued by the same project.
 
 ### Donation
 
-Users choose what percentage of tokens to donate when they buy. It's like fees on an exchange but how much users pay is up to them. The more donation, the more bonus value the purchased token will get if the market cap gets bigger. Project owners set the *Donation Bonus Power*; it is a variable to determine how much bonuses users receive from their donations. There is a tradeoff between the market cap and the amount of donation. If a project owner wants to earn more income from donations, the Donation Bonus Power should be set higher. On the other hand, if the project owner wants users to get profits more, they should set the Donation Bonus Power lower. Project owners can change it anytime later. This is a little like capital increase as companies do.
+Users choose what percentage of tokens to donate when they buy. It's like an exchange fee but how much users pay is up to them. The more donation, the more bonus value the purchased token will get if the market cap gets bigger. Project owners set the *Donation Bonus Power*; it is a variable to determine how much bonuses users receive from their donations. There is a tradeoff between the market cap and the amount of donation. If a project owner wants to earn more income from donations, the Donation Bonus Power should be set higher. On the other hand, if the project owner wants users to get profits more, they should set the Donation Bonus Power lower. Project owners can change it anytime later. This is a little like capital increase as companies do.
 
 ### Risk Hedging
 
