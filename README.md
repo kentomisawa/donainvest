@@ -55,7 +55,7 @@ Project owners have to hedge risks for users because unexpected asset loss cause
 
 ### Pricing
 
-The issued tokens are a kind of NFTs. Because amounts of donations and *Value Guarantee Rate* are different from individuals; the more donation the more price increase and the higher *Value Guarantee Rate* the less price increase. If a project owner makes the rate of donations and *Value Guarantee Rate* not optional to users, every issued token is at the same price. Although the prices of tokens issued by the same project owner could be different, it is easy to use because they are coupled with the DEX and swappable. Users can know about how tokens of a project are valuable by the mean change rate of the prices.
+The issued tokens are a kind of NFTs. Because amounts of donations and *Value Guarantee Rate* are different from individuals; the more donation the more bonus value and the higher *Value Guarantee Rate* the less volatility. If a project owner makes the rate of donations and *Value Guarantee Rate* not optional to users, every issued token is at the same price. Although the volatility of purchased tokens issued by the same project owner could be different, the price users buy at is the same. Investment returns are differentiated by donation and *Value Guarantee Rate*. That seems hard to use those tokens, however, it is easy to pay with because they are coupled with the DEX and swappable. 
 
 ### KYC, AML/CFT, etc
 
