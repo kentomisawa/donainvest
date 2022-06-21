@@ -55,7 +55,11 @@ Project owners have to hedge risks for users because unexpected asset loss cause
 
 ### Pricing
 
-The issued tokens are a kind of NFTs. Because amounts of donations and *Value Guarantee Rate* are different from individuals; the more donation the more bonus value and the higher *Value Guarantee Rate* the less volatility. If a project owner makes the rate of donations and *Value Guarantee Rate* not optional to users, every issued token is at the same price. Although the volatility of purchased tokens issued by the same project owner could be different, the price users buy at is the same. Investment returns are differentiated by donation and *Value Guarantee Rate*. That seems hard to use those tokens, however, it is easy to pay with because they are coupled with the DEX and swappable. 
+The issued tokens are a kind of NFTs. Because amounts of donations and *Value Guarantee Rate* are different for individuals; the more donation the more bonus value and the higher *Value Guarantee Rate* the less volatility. If a project owner makes the rate of donations and *Value Guarantee Rate* not optional to users, every issued token is at the same price. Although the volatility of purchased tokens issued by the same project owner could be different, the price users buy at is the same. Investment returns are differentiated by donation and *Value Guarantee Rate*. That seems hard to use those tokens, however, it is easy to pay with because they are coupled with the DEX and swappable.
+
+#### Donation Bonuses and Investment Returns
+
+There are two factors that users get values with, which are Donation Bonuses and Investment Returns. Donation Bonuses are derived from the amount of donation and *Donation Bonus Power*, Investment Returns are derived from the amount of purchased tokens and *Value Guarantee Rate*. Even though a price of tokens has increased by 10%, the values the users obtain might be not 10%; it could be 5% or 15%. It is various to users.
 
 ### KYC, AML/CFT, etc
 
