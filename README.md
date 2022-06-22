@@ -58,7 +58,7 @@ Project owners have to hedge risks for users because unexpected asset loss cause
 
 ### Investment
 
-The issued tokens are a kind of NFTs. Because amounts of donations and *Value Guarantee Rate* are different for individuals; the more donation the more bonus value and the higher *Value Guarantee Rate* the less volatility. If tokens are purchased by the same amount of donations and at the same *Value Guarantee Rate*, every issued token is at the same volatility. Investment returns are differentiated by donation and *Value Guarantee Rate*. That seems hard to use those tokens, however, it is easy to pay with because they are coupled with the DEX, and can be swappable or transferable.
+The issued tokens are a kind of NFTs. Because amounts of donations and *Value Guarantee Rate* are different for individuals; the more donation the more bonus value and the higher *Value Guarantee Rate* the less volatility. If tokens are purchased by the same amount of donations and at the same *Value Guarantee Rate*, every issued token is at the same volatility. Investment returns are differentiated by donation and *Value Guarantee Rate*. That seems hard to use those tokens, however, it is easy to use because they are coupled with the DEX; that is token agnostic for many use cases.
 
 #### Donation Bonuses and Investment Returns
 
