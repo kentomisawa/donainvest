@@ -14,22 +14,55 @@
         <img src="logo.png" alt="DFINITY logo" />
       </div>
       <div>
-        <p>Account: <span id="address"></span></p>
+        <p>Credit: <span id="credit"></span> USD</p>
       </div>
     </nav>
-    <main>
-      <select></select>
-      <p><span id="balance"></span> </p>
-      <section>
-        <p>Price: <span id="price"></span></p>
-        <p>Balance: <span id="balance-target"></span></p>
-        <div>
-          <input >
-        </div>
-        <div>
-
-        </div>
-      </section>
+    <main id="project-list">
+      <ul>
+        <li onclick="hide('project-list');show('project1')">
+          <a style="cursor: pointer">Project1</a>
+          <div>Market Cap: 1000 USD</div>
+          <div>Average Profit: -12%</div>
+        </li>
+        <br/>
+        <li onclick="hide('project-list');show('project2')">
+          <a style="cursor: pointer">Project2</a>
+          <div>Market Cap: 5500 USD</div>
+          <div>Average Profit: +34%</div>
+        </li>
+      </ul>
+    </main>
+    <main id="project1" style="display: none">
+      <p>
+        <span>Balance: </span>
+        <span id="balance1"></span>
+        <span>;</span>
+        <span id="usd1"></span>
+        <span> USD</span>
+      </p>
+      <p><span>Profit: </span><span id="profit1"></span> %</p>
+      <input id="amount1" placeholder="Amount" type="number"/>
+      <button onclick="buy('amount1', 'balance1', 'usd1')">Buy</button>
+      <button onclick="sell('amount1', 'balance1', 'usd1')">Sell</button>
+      <p>
+        <button onclick="hide('project1');show('project-list')">Back</button>
+      </p>
+    </main>
+    <main id="project2" style="display: none">
+      <p>
+        <span>Balance: </span>
+        <span id="balance2"></span>
+        <span>;</span>
+        <span id="usd2"></span>
+        <span> USD</span>
+      </p>
+      <p><span>Profit: </span><span id="profit2"></span> %</p>
+      <input id="amount2" placeholder="Amount" type="number"/>
+      <button onclick="buy('amount2', 'balance2', 'usd2')">Buy</button>
+      <button onclick="sell('amount2', 'balance2', 'usd2')">Sell</button>
+      <p>
+        <button onclick="hide('project2');show('project-list')">Back</button>
+      </p>
     </main>
   </body>
 </html>
