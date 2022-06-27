@@ -20,8 +20,9 @@ window.hide = (id) => {
   document.getElementById(id).style.display = "none"
 }
 
-window.buy = (id, key, usd) => {
-  const value = Number(document.getElementById(id).value)
+window.buy = (id, key, usd, donation) => {
+  const donationRate = Number(document.getElementById(donation).value) / 100
+  const value = Number(document.getElementById(id).value) * (1 - donationRate)
   if (value <= window.credit) {
     window[key] += value
     window[usd] += value
@@ -32,8 +33,9 @@ window.buy = (id, key, usd) => {
   }
 }
 
-window.sell = (id, key, usd) => {
-  const amount = Number(document.getElementById(id).value)
+window.sell = (id, key, usd, donation) => {
+  const donationRate = Number(document.getElementById(donation).value) / 100
+  const amount = Number(document.getElementById(id).value) * (1 - donationRate)
   const price = window[usd] / window[key]
   if (amount <= window[key]) {
     window[key] -= amount

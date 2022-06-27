@@ -41,9 +41,16 @@
         <span> USD</span>
       </p>
       <p><span>Profit: </span><span id="profit1"></span> %</p>
-      <input id="amount1" placeholder="Amount" type="number"/>
-      <button onclick="buy('amount1', 'balance1', 'usd1')">Buy</button>
-      <button onclick="sell('amount1', 'balance1', 'usd1')">Sell</button>
+      <label>Amount: </label>
+      <input id="amount1" placeholder="Amount" type="number"/><br/>
+      <label>Donation Rate: </label>
+      <input id="donation1" placeholder="Donation rate" type="number" min="0" max="100"/>
+      <span>%</span><br/>
+      <label>Guarantee Rate: </label>
+      <input id="guarantee-rate1" placeholder="Guarantee rate" type="number" min="0" max="100">
+      <span>%</span><br/>
+      <button onclick="buy('amount1', 'balance1', 'usd1', 'donation1')">Buy</button>
+      <button onclick="sell('amount1', 'balance1', 'usd1', 'donation1')">Sell</button>
       <p>
         <button onclick="hide('project1');show('project-list')">Back</button>
       </p>
@@ -57,9 +64,16 @@
         <span> USD</span>
       </p>
       <p><span>Profit: </span><span id="profit2"></span> %</p>
-      <input id="amount2" placeholder="Amount" type="number"/>
-      <button onclick="buy('amount2', 'balance2', 'usd2')">Buy</button>
-      <button onclick="sell('amount2', 'balance2', 'usd2')">Sell</button>
+      <label>Amount: </label>
+      <input id="amount2" placeholder="Amount" type="number"/><br/>
+      <label>Donation Rate: </label>
+      <input id="donation2" placeholder="Donation rate" type="number" min="0" max="100"/>
+      <span>%</span><br/>
+      <label>Guarantee Rate: </label>
+      <input id="guarantee-rate2" placeholder="Guarantee rate" type="number" min="0" max="100">
+      <span>%</span><br/>
+      <button onclick="buy('amount2', 'balance2', 'usd2', 'donation2')">Buy</button>
+      <button onclick="sell('amount2', 'balance2', 'usd2', 'donation2')">Sell</button>
       <p>
         <button onclick="hide('project2');show('project-list')">Back</button>
       </p>
